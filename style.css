@@ -18,6 +18,9 @@ header {
   height: 40px;
   background: white; }
 
+.underheader ul {
+  height: 25px; }
+
 .mainEtsy {
   float: left; }
 
@@ -35,7 +38,7 @@ header {
   border-bottom: 1px solid lightgrey;
   margin-bottom: 30px;
   background: white;
-  margin-top: 0px; }
+  margin-top: 0; }
   .underHeader li {
     list-style-type: none;
     display: inline-block;
@@ -43,7 +46,7 @@ header {
 
 .showResults {
   font-size: 14px;
-  margin-right: 180px;
+  margin-right: 167px;
   margin-left: 50px; }
 
 .smallCats {
@@ -59,18 +62,19 @@ header {
   border: solid 1px lightgrey;
   border-radius: 2px;
   width: 250px;
-  padding-left: 10px;
+  padding-left: 7px;
   padding-bottom: 15px;
   margin-left: 50px;
-  font-size: 12px;
-  padding-top: 15px;
+  font-size: 13px;
+  padding-top: 10px;
   position: relative;
   background: white;
   float: left; }
   .allCats li {
-    margin-left: 20px; }
+    margin-left: 20px;
+    font-size: 13px; }
   .allCats p {
-    margin-top: 0px; }
+    margin-top: 0; }
 
 .refineSearch {
   margin-top: 35px;
@@ -78,13 +82,40 @@ header {
 
 .contentContainer {
   height: 1000px;
-  width: 900px;
+  width: 950px;
   float: left;
-  display: inline-block;
   margin-top: 12px;
-  margin-left: 30px; }
+  margin-left: 15px; }
 
 .content {
-  display: inline-block;
-  margin: 10px;
-  margin-top: 0px; }
+  float: left;
+  margin: 0 10px 10px;
+  border: solid 1px lightgrey;
+  height: 235px;
+  width: 210px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px; }
+
+.title {
+  font-size: 12px;
+  margin: 3px;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+p.title {
+  height: 13px;
+  width: 215px;
+  margin-left: 2px; }
+
+.creator {
+  font-size: 12px;
+  float: left;
+  padding-left: 3px;
+  color: grey; }
+
+.price {
+  font-size: 12px;
+  float: right;
+  color: lightgreen;
+  padding-right: 3px; }
