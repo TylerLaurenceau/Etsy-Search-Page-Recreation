@@ -2,4 +2,116 @@
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	border-radius: 2px;
   }
+
+body{
+	background: #FAF9F5;
+}
+
+a{
+	text-decoration: none;
+}
+
+	li {
+		list-style-type: none;
+	}
+
+	header{
+		border-bottom:1px solid lightgrey;
+		height: 40px;
+		background: white;
+}
+
+	.mainEtsy{
+		float:left;
+	}
+
+	.rightItems{
+		float:right;
+	}
+
+	.search{
+		float:left;
+	}
+
+	.bar{
+		border: 1px lightgrey solid;
+	}
+
+	.underHeader {
+		height: 50px;
+		border-bottom: 1px solid lightgrey;
+		margin-bottom: 30px;
+		background: white;
+		margin-top: 0px;
+
+
+	li {
+		list-style-type: none;
+		display: inline-block;
+		margin-right: 14px;
+	}
+}
+
+
+.showResults{
+	font-size: 14px;
+	margin-right: 180px;
+	margin-left: 50px;
+}
+
+.smallCats{
+	font-size: 12px;
+	padding-right: 550px;
+}
+
+.sortBy{
+	font-size: 12px;
+	float:right;
+	margin-right: 15px;
+}
+
+.allCats{
+	border: solid 1px lightgrey;
+	border-radius: 2px;
+	width:250px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	margin-left: 50px;
+	font-size: 12px;
+	padding-top: 15px;
+	position:relative;
+	background: white;
+	float:left;
+
+
+
+	li{
+		margin-left: 20px;
+	}
+
+	p{
+		margin-top: 0px;
+	}
+}
+
+.refineSearch{
+	margin-top: 35px;
+	margin-left: 50px;
+}
+
+.contentContainer{
+	height: 1000px;
+	width: 900px;
+	float: left;
+	display: inline-block;
+	margin-top: 12px;
+	margin-left: 30px;
+}
+
+.content{
+display: inline-block;
+margin: 10px;
+margin-top: 0px;
+}
