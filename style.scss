@@ -19,8 +19,14 @@ li {
 
 header {
 	border-bottom: 1px solid lightgrey;
-	height: 40px;
+	height: 80px;
 	background: white;
+}
+
+#headerTop{
+	padding-left: 20px;
+	padding-top: 40px;
+	display: inline;
 }
 
 .underheader ul {
@@ -29,6 +35,9 @@ header {
 
 .mainEtsy {
 	float: left;
+	font-size: 37px;
+	margin: 25px;
+	color:orange;
 }
 
 .rightItems {
@@ -37,10 +46,27 @@ header {
 
 .search {
 	float: left;
+	margin-right:300px;
+	margin-top: 37px;
 }
 
 .bar {
 	border: 1px lightgrey solid;
+}
+
+.rightItems{
+	margin-top: 20px;
+	display:inline-block;
+	margin-right: 30px;
+
+	li{
+		display: inline-block;
+		margin-right: 15px;
+
+		.signIn{
+			border:black 1px solid;
+		}
+	}
 }
 
 .underHeader {
@@ -113,12 +139,16 @@ header {
 .content {
 	float: left;
 	margin: 0 10px 10px;
-	border: solid 1px lightgrey;
+	border-left:solid 1px lightgrey;
+	border-right: solid 1px lightgrey;
+	border-top: solid 1px lightgrey;
+	border-bottom: 1px solid #CCCDCA;
 	height: 235px;
-	width: 210px;
+	width: 216px;
 	position: relative;
 	overflow: hidden;
 	margin-bottom: 20px;
+	background: white;
 }
 
 .title {
@@ -132,6 +162,8 @@ p.title {
 	height: 13px;
 	width: 215px;
 	margin-left: 2px;
+	display: inline-block;
+	overflow: hidden;
 }
 
 .creator {
@@ -146,4 +178,8 @@ p.title {
 	float: right;
 	color: lightgreen ;
 	padding-right: 3px;
+}
+
+.hover1{
+
 }

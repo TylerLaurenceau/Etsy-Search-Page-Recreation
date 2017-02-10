@@ -1,3 +1,4 @@
+
 function items() {
     for (i = 0; i < cowboyBebop.results.length; i++) {
         $(".contentContainer").append(`<div class = "content"> <img src = "${cowboyBebop.results[i].Images[0].url_170x135}" width = "225"/>
@@ -5,6 +6,4 @@ function items() {
     <p class = "price">$${cowboyBebop.results[i].price}</p></div>`)
     }
 }
-//Put img src inside of div tags inside of template literals.
-
 items();
