@@ -15,6 +15,10 @@ a {
 	color: #3CB1CB;
 }
 
+a:hover {
+	text-decoration:underline ;
+	}
+
 li {
 	list-style-type: none;
 }
@@ -31,6 +35,10 @@ button {
 	background: #34A8C4;
 	border: #34A8C4 solid 1px;
 	color: white;
+}
+
+button:hover {
+	background: #0CCCF3;
 }
 
 .searchButton {
@@ -60,6 +68,11 @@ button {
 	padding-top: 15px;
 }
 
+.underHeader a:hover {
+	color:black;
+	text-decoration: none;
+}
+
 .mainEtsy {
 	float: left;
 	font-size: 37px;
@@ -81,6 +94,10 @@ button {
 	padding-left: 15px;
 	opacity: 0.6;
 	font-size: 14px;
+}
+
+.cartItems:hover {
+	opacity: 4;
 }
 
 .search {
@@ -107,6 +124,10 @@ button {
 .signIn {
 	border: #3CB1CB 1px solid;
 	padding: 7px;
+}
+
+.signIn:hover {
+	background:#0CCCF3;
 }
 
 .underHeader {
@@ -328,6 +349,25 @@ p.title {
 	margin-right: 15px;
 	float:left;
 	padding-top: 15px;
+	padding-bottom: 70px;
+
+	li{
+		margin-bottom: 15px;
+		font-size: 13px;
+		margin-left: 0px;
+	}
+
+	a{
+		color:black;
+	}
+
+}
+
+.footerList3{
+	margin-right: 15px;
+	float:left;
+	padding-top: 15px;
+	padding-bottom: 180px;
 
 	li{
 		margin-bottom: 15px;
@@ -359,4 +399,48 @@ p.title {
 	font-size: 14px;
 	margin-left: 0px;
 	font-weight: bold;
+}
+
+#bottomFooterLeft{
+	border: 1px solid lightgrey;
+	height: 20px;
+	padding:5px;
+	margin-left: 25px;
+	font-size: 14px;
+	color:black;
+
+}
+
+.line{
+	color:lightgrey;
+}
+
+#bottomFooterRight{
+	float: right;
+	margin-right: 30px;
+	color:black;
+	li{
+		display: inline-block;
+		margin-right: 20px;
+		font-size: 12px;
+	}
+}
+
+.seal{
+	color: grey;
+	margin-right: 30px;
+}
+
+.help{
+	border: 1px lightgrey solid;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left:35px;
+	padding-right: 35px;
+	background: white;
+}
+
+.help:hover{
+	background: lightgrey;
+
 }

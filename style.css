@@ -12,6 +12,9 @@ a {
   text-decoration: none;
   color: #3CB1CB; }
 
+a:hover {
+  text-decoration: underline; }
+
 li {
   list-style-type: none; }
 
@@ -26,6 +29,9 @@ button {
   background: #34A8C4;
   border: #34A8C4 solid 1px;
   color: white; }
+
+button:hover {
+  background: #0CCCF3; }
 
 .searchButton {
   padding: 7px 15px;
@@ -50,6 +56,10 @@ button {
   margin-top: 0;
   padding-top: 15px; }
 
+.underHeader a:hover {
+  color: black;
+  text-decoration: none; }
+
 .mainEtsy {
   float: left;
   font-size: 37px;
@@ -70,6 +80,9 @@ button {
   opacity: 0.6;
   font-size: 14px; }
 
+.cartItems:hover {
+  opacity: 4; }
+
 .search {
   float: left;
   margin-right: 260px;
@@ -89,6 +102,9 @@ button {
 .signIn {
   border: #3CB1CB 1px solid;
   padding: 7px; }
+
+.signIn:hover {
+  background: #0CCCF3; }
 
 .underHeader {
   height: 50px;
@@ -268,12 +284,25 @@ p.title {
 .footerList {
   margin-right: 15px;
   float: left;
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 70px; }
   .footerList li {
     margin-bottom: 15px;
     font-size: 13px;
     margin-left: 0px; }
   .footerList a {
+    color: black; }
+
+.footerList3 {
+  margin-right: 15px;
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 180px; }
+  .footerList3 li {
+    margin-bottom: 15px;
+    font-size: 13px;
+    margin-left: 0px; }
+  .footerList3 a {
     color: black; }
 
 #openShop {
@@ -291,3 +320,38 @@ p.title {
   font-size: 14px;
   margin-left: 0px;
   font-weight: bold; }
+
+#bottomFooterLeft {
+  border: 1px solid lightgrey;
+  height: 20px;
+  padding: 5px;
+  margin-left: 25px;
+  font-size: 14px;
+  color: black; }
+
+.line {
+  color: lightgrey; }
+
+#bottomFooterRight {
+  float: right;
+  margin-right: 30px;
+  color: black; }
+  #bottomFooterRight li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px; }
+
+.seal {
+  color: grey;
+  margin-right: 30px; }
+
+.help {
+  border: 1px lightgrey solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 35px;
+  padding-right: 35px;
+  background: white; }
+
+.help:hover {
+  background: lightgrey; }
