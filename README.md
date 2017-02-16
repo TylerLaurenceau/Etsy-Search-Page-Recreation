@@ -1,7 +1,7 @@
 #Recreating the etsy search page.
 ![Etsy](https://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8.png)
 
-[Link to live site](TylerLaurenceau.github.io/Etsy-Search-Page-Recreation/)
+[Link to live site](https://tylerlaurenceau.github.io/Etsy-Search-Page-Recreation/)
 
 #Learning Objectives
 * Have a deep understanding of layout.
